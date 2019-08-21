@@ -104,6 +104,7 @@ margin-right: -30px;
 position: fixed;
 overflow: scroll ;
 right: 2%;
+overflow-x: hidden;
 
 }
 #main{

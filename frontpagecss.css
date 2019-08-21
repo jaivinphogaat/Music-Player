@@ -8,7 +8,7 @@ body{
   
 }
 #header1{
-	 border:2px solid rgb(10, 26, 91);
+   border:2px solid rgb(10, 26, 91);
 background-color: rgb(10, 26, 91);
 height: 50px;
 position: sticky;
@@ -24,79 +24,80 @@ top:0%;
 }
 /* for music player text */
 #player{
-	margin-top: 5px;
-	margin-left: 1%;
-	color: white;
+  margin-top: 5px;
+  margin-left: 1%;
+  color: white;
 }
 /*for headphone logo*/
 #headphone_image{
-	color:white;
+  color:white;
 margin-left: 3%;}
 #favourite{
-	margin-left: 4%;
-	margin-top: 12px;
-	color:white;
+  margin-left: 4%;
+  margin-top: 12px;
+  color:white;
 }
 /*for search border*/
 #bordersearch{
-	border:2px solid rgb(42, 58, 120);
-	margin-left:40%;
-	margin-top: 12px;
-	color: white;
-	position: fixed;
-	right:14%;
-	border-radius: 20%;
-	background-color:rgb(42, 58, 120);
-	display: flex; 
-	opacity: 0.6;
+  border:2px solid rgb(42, 58, 120);
+  margin-left:40%;
+  margin-top: 12px;
+  color: white;
+  position: fixed;
+  right:14%;
+  border-radius: 20%;
+  background-color:rgb(42, 58, 120);
+  display: flex; 
+  opacity: 0.6;
 }
 #search_icon{
-	margin-left: 5px;
+  margin-left: 5px;
 }
-#search{	margin:1px  5em 1px 8px;
-	font-size: 12px;
-	opacity:0.5;
+#search{  margin:1px  5em 1px 8px;
+  font-size: 12px;
+  opacity:0.5;
 }
 /*for mic icon*/
 #mic{
-	margin-right: 5px;
+  margin-right: 5px;
 
 }
 #bell{
-	position:fixed;
-	right:8%;
-	color: white;
-	margin-top: 14px;
-	margin-left: 10px; !important;
+  position:fixed;
+  right:8%;
+  color: white;
+  margin-top: 14px;
+  margin-left: 10px; !important;
 }
  #photo img{ border-radius: 50%; }
 #photo{
-	height: 15px;
-	width: 15px;
-	position:fixed;
-	right:4%;
-	margin-top: 7px;
+  height: 15px;
+  width: 15px;
+  position:fixed;
+  right:4%;
+  margin-top: 7px;
 
 }
 /* for diving in 70% left*/
 #sec1{
-	width: 70%;
-	display: inline-block;
-	background-color: rgb(10, 26, 91);
-	height: 93%;
-	margin-top: 7px;
-	margin-left: -10px;
+  width: 70%;
+  display: inline-block;
+  background-color: rgb(10, 26, 91);
+  height: 93%;
+  margin-top: 7px;
+  margin-left: -10px;
   position: fixed;
   overflow: scroll;
+  
     
 }
 /* for 30%.  */
 #sec2{
-	display: inline-block;
-	width: 25%;
+  display: inline-block;
+  width: 27%;
   height: 100%;
-	vertical-align: top;
-	background-color:rgb(10, 26, 91);
+  vertical-align: top;
+  background-color: rgb(10, 26, 91);
 height:100%;
 margin-left: -4px;
 margin-top: 7px;
@@ -105,11 +106,12 @@ position: fixed;
 overflow: scroll ;
 right: 2%;
 overflow-x: hidden;
-margin-left: 4px;
+margin-right: 4px;
+
 }
 #main{
-	margin-left: -7px;
-	width: 110%;
+  margin-left: -7px;
+  width: 110%;
 }
 /* for Carousel*/
 
@@ -156,12 +158,12 @@ margin-left: 4px;
         
         #slider-image-2:target ~ .image-holder
         {
-            left: -105%;
+            left: -800px;
         }
         
         #slider-image-3:target ~ .image-holder
         {
-            left: -210%;
+            left: -1600px;
         }
         /* for Carousel button*/
 
@@ -190,170 +192,170 @@ margin-left: 4px;
           color: white;
         }
         #third{
-        	margin-top:100px;
-        	margin-left: 70px;
-        	color: white;
-        	font-size: 70px;
+          margin-top:100px;
+          margin-left: 70px;
+          color: white;
+          font-size: 70px;
           display: flex;
           flex-wrap: wrap;
            
         }
         #rl{
-        	color: white;
-        	display: flex;
-        	flex-wrap: wrap;
+          color: white;
+          display: flex;
+          flex-wrap: wrap;
 
         }
         /* for trending portion*/
 
         #f{
-        	height: 120px;
-        	width: 30%;
-        	margin:70px;
-        	margin-top: 30px; 
-        	margin-bottom: 0px;
-        	background-color: rgb(10, 26, 91);
+          height: 120px;
+          width: 30%;
+          margin:70px;
+          margin-top: 30px; 
+          margin-bottom: 0px;
+          background-color: rgb(10, 26, 91);
         }
         #s{
-        	height: 120px;
-        	width: 30%;
-        	margin:70px;
-        	margin-top: 30px; 
-        	margin-bottom: 0px;
-        	background-color: rgb(10, 26, 91);
+          height: 120px;
+          width: 30%;
+          margin:70px;
+          margin-top: 30px; 
+          margin-bottom: 0px;
+          background-color: rgb(10, 26, 91);
         }
         /* for trending portion*/
         #t{
-        	height: 120px;
-        	width: 30%;
-        	margin:70px;
-        	margin-top: 30px; 
+          height: 120px;
+          width: 30%;
+          margin:70px;
+          margin-top: 30px; 
 
-        	background-color: rgb(10, 26, 91);
+          background-color: rgb(10, 26, 91);
         }
         #fo{
-	        height: 120px;
-	        width: 30%;
-        	margin:70px;
-        	margin-top: 30px; 
-        	background-color: rgb(10, 26, 91);
+          height: 120px;
+          width: 30%;
+          margin:70px;
+          margin-top: 30px; 
+          background-color: rgb(10, 26, 91);
            }
            /* for trending portion*/
            #ff{
-           	margin:5px;
-           	display: flex;
-           	color: white; 
+            margin:5px;
+            display: flex;
+            color: white; 
            }
            #fft{
-           	margin-left: 10px;
-           	margin-top: 20px;
-           	color: white;
-           	font-size: 25px;
+            margin-left: 10px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
            }
            #fft:hover{
             color: red;
             font-size: 35px;
            }
            #fftr{
-           	opacity: .7;
-           	font-size: 15px;
+            opacity: .7;
+            font-size: 15px;
            }
            /* for trending portion*/
            #ffr{
-           	color: white;
-           	opacity: .8;
-           	font-size: 15px;
-           	margin-left: 25%;
-           	margin-top: 30px;
+            color: white;
+            opacity: .8;
+            font-size: 15px;
+            margin-left: 25%;
+            margin-top: 30px;
            }
 
             #ss{
-           	margin:5px;
-           	display: flex;
-           	color: white; 
+            margin:5px;
+            display: flex;
+            color: white; 
            }
            /* for trending portion*/
            #sst{
-           	margin-left: 10px;
-           	margin-top: 20px;
-           	color: white;
-           	font-size: 25px;
+            margin-left: 10px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
            }
            #sst:hover{
             color: red;
             font-size: 35px;
            }
            #sstr{
-           	opacity: .7;
-           	font-size: 15px;
+            opacity: .7;
+            font-size: 15px;
            }
            /* for trending portion*/
            #ssr{
-           	color: white;
-           	opacity: .8;
-           	font-size: 15px;
-           	margin-left: 25%;
-           	margin-top: 30px;
+            color: white;
+            opacity: .8;
+            font-size: 15px;
+            margin-left: 25%;
+            margin-top: 30px;
            }
 
 
 
 
              #tt{
-           	margin:5px;
-           	display: flex;
-           	color: white; 
+            margin:5px;
+            display: flex;
+            color: white; 
            }
            /* for trending portion*/
            #ttt{
-           	margin-left: 10px;
-           	margin-top: 20px;
-           	color: white;
-           	font-size: 25px;
+            margin-left: 10px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
            }
            #ttt:hover{
             color: red;
             font-size: 35px;
            }
                       #tttr{
-           	opacity: .7;
-           	font-size: 15px;
+            opacity: .7;
+            font-size: 15px;
            }
            #ttr{
-           	color: white;
-           	opacity: .8;
-           	font-size: 15px;
-           	margin-left: 25%;
-           	margin-top: 30px;
+            color: white;
+            opacity: .8;
+            font-size: 15px;
+            margin-left: 25%;
+            margin-top: 30px;
            }
 
 /* for trending portion*/
              #fofo{
 
-           	margin:5px;
-           	display: flex;
-           	color: white; 
+            margin:5px;
+            display: flex;
+            color: white; 
            }
            #fofot{
-           	margin-left: 10px;
-           	margin-top: 20px;
-           	color: white;
-           	font-size: 25px;
+            margin-left: 10px;
+            margin-top: 20px;
+            color: white;
+            font-size: 25px;
            }
            #fofot:hover{
             color: red;
             font-size: 35px;
            }
            #fofotr{
-           	opacity: .7;
-           	font-size: 15px;
+            opacity: .7;
+            font-size: 15px;
            }
            #fofor{
-           	color: white;
-           	opacity: .8;
-           	font-size: 15px;
-           	margin-left: 25%;
-           	margin-top: 30px;
+            color: white;
+            opacity: .8;
+            font-size: 15px;
+            margin-left: 25%;
+            margin-top: 30px;
            }
 /* for popular artist portion*/
            #pop{
@@ -362,31 +364,31 @@ margin-left: 4px;
               margin-left: 60px;
            }
            #popflex{
-           	display: flex;
-           	
-           	border: 0px solid blue;
-           	margin-left: 65px;
-           	margin-top: 20px;
-           	margin-right: 10px;
-           	justify-content: space-between;
+            display: flex;
+            
+            border: 0px solid blue;
+            margin-left: 65px;
+            margin-top: 20px;
+            margin-right: 10px;
+            justify-content: space-between;
             overflow-x: scroll;
 
            }
            #popflex div{
-           	width: 155px;
+            width: 155px;
            }
            #popflex aside{
-           	color: white;
-           	margin-left: 35px;
+            color: white;
+            margin-left: 35px;
            }
            /* for popular artist portion*/
            #popflex img{
-           	height: 150px;
-           	width: 150px;
-           	border-radius: 50%;
-           	margin:5px;
-           	 
-           	margin-top: 5px;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            margin:5px;
+             
+            margin-top: 5px;
            }
            #popflex img:hover{
             box-shadow: 5px 5px 0px #999;
@@ -395,49 +397,50 @@ margin-left: 4px;
            }
     /* for edm portion*/       
           #coldflex{
-          	display: flex;
-          	justify-content: space-between;
-          	flex-wrap: wrap;
-          	border: 0px solid red;
-          	margin-left: 60px;
-          	margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border: 0px solid red;
+            margin-left: 60px;
+            margin-top: 50px;
           }
           #coldflex img{
-          	margin: 10px;
-          	height: 200px;
-          	width: 300px;
+            margin: 10px;
+            height: 200px;
+            width: 300px;
+            
           }
           #coldflex img:hover{
             margin: 10px;
             height: 300px;
-            width: 370px;
+            width: 300px;
           }
 /* for famous english song*/
           #popflexe{
-           	display: flex;
-           	flex-wrap: wrap;
-           	border: 0px solid blue;
-           	margin-left: 65px;
-           	margin-top: 20px;
-           	margin-right: 10px;
-           	justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+            border: 0px solid blue;
+            margin-left: 65px;
+            margin-top: 20px;
+            margin-right: 10px;
+            justify-content: space-between;
 
 
            }
            #popflexe div{
-           	width: 155px;
+            width: 155px;
            }
            /* for famous english song*/
            #popflexe aside{
-           	color: white;
-           	margin-left: 35px;
+            color: white;
+            margin-left: 35px;
            }
            #popflexe img{
-           	height: 150px;
-           	width: 150px;
-           	           	margin:5px;
-           	 
-           	margin-top: 5px;
+            height: 150px;
+            width: 150px;
+                        margin:5px;
+             
+            margin-top: 5px;
            }
       /* for famous english song*/
           #popflexe img:hover{
@@ -454,31 +457,30 @@ margin-left: 4px;
            }
 /* for queue songs*/
            #queue{
-           	color: white;
-           	font-size: 40px;
-           	margin-left:1%;
+            color: white;
+            font-size: 40px;
+            margin-left:1%;
 
 
            }
 
            
            #sec2 div{
-           	border: 2px solid rgb(10, 26, 91);
-           	margin-left: 2%;
+            border: 2px solid rgb(10, 26, 91);
+            margin-left: 2%;
            
-           	margin-top: 10px;
+            margin-top: 10px;
             height: 60px;
-           overflow: hidden;
+            overflow: scroll;
             margin-right: 4%;
-
 
            }
 
 /* for queue songs*/
            #ffa{
-           	margin:5px;
-           	display: flex;
-           	color: white; 
+            margin:5px;
+            display: flex;
+            color: white; 
             overflow: hidden;
            }
            #ffa img:hover{
@@ -491,33 +493,33 @@ margin-left: 4px;
             font-size: 30px;
            }
            #ffta{
-           	margin-left: 10px;
-           	margin-top: 2px;
-           	color: white;
-           	font-size: 110%;
+            margin-left: 10px;
+            margin-top: 2px;
+            color: white;
+            font-size: 110%;
             overflow: hidden;
+            margin-right: 5px;
            }
            /* for queue songs*/
            #fftra{
-           	opacity: .7;
-           	font-size: 12px;
-
+            opacity: .7;
+            font-size: 12px;
            }
            #ffra{
-           	color: white;
-           	opacity: .8;
-           	font-size: 15px;
-           	position: absolute;
-           	right:5%;
-           	margin-top: 10px;
+            color: white;
+            opacity: .8;
+            font-size: 15px;
+            position: absolute;
+            right:5%;
+            margin-top: 10px;
            }
 
            
      /* footer  */      
            footer{
-           	position: fixed;
-           	z-index: 1;
-           	bottom:0px;
+            position: fixed;
+            z-index: 1;
+            bottom:0px;
            width:100%;
       height: 80px;
       background-color: black;

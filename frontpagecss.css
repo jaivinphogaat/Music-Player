@@ -466,8 +466,9 @@ margin-left: 4px;
            
            	margin-top: 10px;
             height: 60px;
-            overflow: scroll;
+           overflow: hidden;
             margin-right: 4%;
+
 
            }
 

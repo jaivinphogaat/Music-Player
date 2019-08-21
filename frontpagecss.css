@@ -475,6 +475,7 @@ overflow-x: hidden;
            	margin:5px;
            	display: flex;
            	color: white; 
+            overflow: hidden;
            }
            #ffa img:hover{
             height: 50px;

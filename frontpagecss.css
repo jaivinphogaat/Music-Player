@@ -491,11 +491,13 @@ overflow-x: hidden;
            	margin-top: 2px;
            	color: white;
            	font-size: 110%;
+            overflow: hidden;
            }
            /* for queue songs*/
            #fftra{
            	opacity: .7;
            	font-size: 12px;
+        
            }
            #ffra{
            	color: white;

@@ -467,6 +467,7 @@ overflow-x: hidden;
            	margin-top: 10px;
             height: 60px;
             overflow: scroll;
+            margin-right: 5px;
 
            }
 
@@ -497,7 +498,7 @@ overflow-x: hidden;
            #fftra{
            	opacity: .7;
            	font-size: 12px;
-        
+
            }
            #ffra{
            	color: white;

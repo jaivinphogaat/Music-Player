@@ -140,7 +140,8 @@ margin-right: 4px;
             height: 400px;
             clear: both;
             position: relative;
-            object-fit: cover;
+            object-fit: contain;
+            
             -webkit-transition: left 2s;
             -moz-transition: left 2s;
             -o-transition: left 2s;
@@ -501,7 +502,7 @@ margin-right: 4px;
            }
            #ffa i:hover{
             color:red;
-            font-size: 30px;
+            transform: scale(2);
            }
            #ffta{
             margin-left: 10px;

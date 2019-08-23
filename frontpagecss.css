@@ -140,7 +140,7 @@ margin-right: 4px;
             height: 400px;
             clear: both;
             position: relative;
-            
+            object-fit: cover;
             -webkit-transition: left 2s;
             -moz-transition: left 2s;
             -o-transition: left 2s;

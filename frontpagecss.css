@@ -663,6 +663,9 @@ footer i:hover{
 }
 @media (orientation: portrait)
 {
+  #player{
+    display: none;
+  }
   #sec2
   {
     display: none;

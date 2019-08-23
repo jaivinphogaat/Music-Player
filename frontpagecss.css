@@ -660,3 +660,14 @@ footer i:hover{
   height: 0px;
   width: 0px;
 }
+@media (orientation: portrait)
+{
+  #sec2
+  {
+    display: none;
+  }
+  #sec1
+  {
+    width: 100%;
+  }
+}

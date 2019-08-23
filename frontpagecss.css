@@ -663,6 +663,12 @@ footer i:hover{
 }
 @media (orientation: portrait)
 {
+  #dii{
+    display: none;
+  }
+  #diii{
+    display: none;
+  }
   #player{
     display: none;
   }

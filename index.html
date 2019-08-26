@@ -69,6 +69,7 @@
 
 
 
+
                  <div class="slider-holder">
              <span id="slider-image-1"></span>
              <span id="slider-image-2"></span>
@@ -93,7 +94,6 @@
              </div>
              </div>
              </div>
-
 
 <!--for trending portion-->
              <div id="third"> Trending</div>
@@ -291,6 +291,8 @@
 
 
 <!--jitni dafa-->
+       
+   <div class="mu">
              <audio id="myAudio">
   <source src="jatt.ogg" type="audio/ogg">
   <source src="jatt.mp3" type="audio/mpeg">
@@ -299,21 +301,22 @@
 
 
 
-            <div id="pho"> <img src="https://www.lyricsbell.com/wp-content/uploads/2018/05/jitni-dafa-parmanu.jpg"> <aside >Jitni Dafa <button onclick="playAudio()" type="button">Play Audio</button>
-<button onclick="pauseAudio()" type="button">Pause Audio</button> 
-            </aside></div>
+            <div id="pho"> <img src="https://www.lyricsbell.com/wp-content/uploads/2018/05/jitni-dafa-parmanu.jpg" onclick="playAudio()" > <aside >Jitni Dafa 
 
+            </aside></div>
+</div>
 
 <!--dhekte dhekte-->
+<div class="mu">
  <audio id="myAudio">
-  <source src="jatt.ogg" type="audio/ogg">
-  <source src="jatt.mp3" type="audio/mpeg">
+  <source src="musi.ogg" type="audio/ogg">
+  <source src="musi.mp3" type="audio/mpeg">
   
           </audio>
 
             <div><img src="https://c.saavncdn.com/555/Dekhte-Dekhte-Rahat-Fateh-Ali-Khan-Version-From-Batti-Gul-Meter-Chalu--Hindi-2018-20180907113921-500x500.jpg" onclick="playAudio()"><aside>Dhekte Dhekte</aside>
 
-
+</div>
 
 <!--lo safar-->     
              </div>
@@ -515,7 +518,7 @@
            <div id="bord">
            <aside id="diiii"><i class="fab fa-bluetooth-b"></i></aside>
            <aside id="diiiii"><i class="fas fa-fast-backward"></i></aside>
-           <aside id="diiiii" ><i class="fas fa-play" onclick="pauseAudio()"><div id="hide" onclick="pauseAudio()"></div></i></aside>
+           <aside id="diiiii" ><div class="pp" data-attr='false' > <i onclick="myFunction(this)"  class="fas fa-play" ></i></div></aside>
            <aside id="diiiii"><i class="fas fa-fast-forward"></i></aside>
            <aside id="diiiii"><i class="fas fa-redo"></i></aside></div>
            <div id="vol"> <aside id="white"><i class="fas fa-volume-off"></i></aside>
@@ -536,8 +539,10 @@ function playAudio() {
 } 
 
 function pauseAudio() { 
-  x.pause(); 
+ x.pause(); 
 } 
+
+
 
     var hella = document.getElementsByClassName("hella");
     for(let i = 0; i < hella.length; i++)
@@ -555,34 +560,38 @@ function pauseAudio() {
             hella[i].setAttribute('data-attr', 'false');
         }
       });
-} 
-function heartcolor1(){
-    document.getElementById("hellb").style.color = "red";
-}function heartcolor2(){
-    document.getElementById("hellc").style.color = "red";
-}function heartcolor3(){
-    document.getElementById("helld").style.color = "red";
-}function heartcolor4(){
-    document.getElementById("helle").style.color = "red";
-}function heartcolor5(){
-    document.getElementById("hellf").style.color = "red";
-}function heartcolor6(){
-    document.getElementById("hellg").style.color = "red";
-}function heartcolor7(){
-    document.getElementById("hellh").style.color = "red";
-}function heartcolor8(){
-    document.getElementById("helli").style.color = "red";
-}function heartcolor9(){
-    document.getElementById("hellj").style.color = "red";
-}function heartcolor0(){
-    document.getElementById("hellk").style.color = "red";
-}function heartcolor11(){
-    document.getElementById("helll").style.color = "red";
-}function heartcolor12(){
-    document.getElementById("hellm").style.color = "red";
-}function heartcolor13(){
-    document.getElementById("helln").style.color = "red";
+    }
+
+  var q=document.getElementsByClassName("pp");
+  for(let i = 0; i < q.length; i++)
+    {
+  q[i].addEventListener('click',function(){
+   let ats=q[i].getAttribute('data-attr');
+   if(ats=='false')
+    { 
+      pauseAudio();
+    
+     q[i].setAttribute('data-attr','true');
+  }
+
+
+   else{
+        playAudio();
+      
+       q[i].setAttribute('data-attr','false');
+       }
+
+    }
+  
+
+
+ );}
+
+ 
+ function myFunction(w) {
+  w.classList.toggle("fa-thumbs-down");
 }
+
 </script>
 
 <!--body end-->     
